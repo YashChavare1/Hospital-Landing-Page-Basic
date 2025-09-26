@@ -1,7 +1,7 @@
 import './HeroSectionStyle.css';
 import { IconLocation } from '../../assets/IconLocation.jsx';
 import { IconSearch } from '../../assets/IconSearch.jsx';
-import ImageFemaleDoctor from '../../assets/ImageFemaleDoctor.png';
+import imagefemaledoctor from '../../assets/imagefemaledoctor.png';
 import CONSTANTS from '../../Constants/Constant';
 
 export const HeroSection = () => {
@@ -37,7 +37,7 @@ export const HeroSection = () => {
                     </div>
                 </div>
                 <div className='heroImage'>
-                    <img src={ImageFemaleDoctor} alt="Doctor Image" />
+                    <img src={imagefemaledoctor} alt="Doctor Image" />
                 </div>
             </div>
         </div>
