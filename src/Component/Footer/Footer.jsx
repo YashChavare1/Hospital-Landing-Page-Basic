@@ -1,6 +1,5 @@
 import CONSTANTS from "../../Constants/Constant";
 import "./FooterStyle.css";
-import { FacebookLogo, InstagramLogo, TwitterLogo } from "../../assets/Logos";
 import { useState } from "react";
 
 export const Footer = () => {

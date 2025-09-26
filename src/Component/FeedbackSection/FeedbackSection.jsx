@@ -2,7 +2,6 @@ import './FeedbackStyle.css';
 import CONSTANTS from "../../Constants/Constant";
 import IconRight from "../../assets/IconRight.png"
 import IconLeft from "../../assets/IconLeft.png"
-import IconDoubleQuote from '../../assets/IconDoubleQuote.png';
 import IconProfile from "../../assets/IconProfile.png";
 import { DoubleQuotes } from '../../assets/Logos';
 import { useState } from "react";

@@ -1,6 +1,6 @@
 import "./OurValuesStyle.css";
 import CONSTANTS from "../../Constants/Constant";
-import doctor1 from "../../assets/Integrity Images/doctor1.png";
+import doctor1 from "../../assets/Integrity Images/Doctor1.png";
 import Doctor2 from "../../assets/Integrity Images/Doctor2.png";
 import Doctor3 from "../../assets/Integrity Images/Doctor3.png";
 import Doctor4 from "../../assets/Integrity Images/Doctor4.png";
