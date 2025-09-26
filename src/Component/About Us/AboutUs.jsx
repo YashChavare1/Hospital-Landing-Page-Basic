@@ -1,5 +1,5 @@
 import './AboutUsStyle.css';
-import imageAboutUsDoctor from "../../assets/ImageAboutUsDoctor.png"
+import ImageAboutUsDoctor from "../../assets/ImageAboutUsDoctor.png"
 import CONSTANTS from '../../Constants/Constant';
 
 export const AboutUs = () => {
@@ -7,7 +7,7 @@ export const AboutUs = () => {
         <div className='aboutUsContainer'>
             <div className="aboutUsContent">
                 <div className="imageContainer">
-                    <img src={imageAboutUsDoctor} alt="Doctor Image" />
+                    <img src={ImageAboutUsDoctor} alt="Doctor Image" />
                 </div>
                 <div className="taglineSection">
                     <div className="tagline1">
