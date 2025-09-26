@@ -1,6 +1,6 @@
 import './HeroSectionStyle.css';
-import { IconLoction } from '../../assets/IconLocation';
-import { IconSearch } from '../../Assets/IconSearch';
+import { IconLoction } from '../../assets/IconLocation.jsx';
+import { IconSearch } from '../../Assets/IconSearch.jsx';
 import imagefemaleDoctor from '../../assets/imagefemaleDoctor.png';
 import CONSTANTS from '../../Constants/Constant';
 
