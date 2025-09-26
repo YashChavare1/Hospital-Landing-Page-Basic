@@ -1,5 +1,5 @@
 import './AboutUsStyle.css';
-import ImageAboutUsDoctor from "../../assets/ImageAboutUsDoctor.png"
+import ImageAboutUsDoctor from "../../assets/imageaboutusdoctor.png"
 import CONSTANTS from '../../Constants/Constant';
 
 export const AboutUs = () => {
