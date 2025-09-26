@@ -1,6 +1,6 @@
 import './HeroSectionStyle.css';
-import { IconLoction } from '../../assets/IconLocation.jsx';
-import { IconSearch } from '../../Assets/IconSearch.jsx';
+import { IconLocation } from '../../assets/IconLocation.jsx';
+import { IconSearch } from '../../assets/IconSearch.jsx';
 import imagefemaleDoctor from '../../assets/imagefemaleDoctor.png';
 import CONSTANTS from '../../Constants/Constant';
 
@@ -23,7 +23,7 @@ export const HeroSection = () => {
                     <div className="doctorSearch">
                         <div className='searchField'>
                             <div className='IconLocation'>
-                                <IconLoction />
+                                <IconLocation />
                             </div>
 
                             <div>
