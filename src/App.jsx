@@ -1,5 +1,5 @@
 import { Navbar } from "../src/Component/Navbar/Navbar.jsx";
-import { HeroSection } from "../src/Component/Hero Section/HeroSection.jsx";
+import { HeroSection } from "../src/Component/HeroSection/HeroSection.jsx";
 import { AboutUs } from "./Component/About Us/AboutUs.jsx";
 import { OurSpeciality } from "./Component/OurSpeciality/OurSpeciality.jsx";
 import { OurValuesSection } from "./Component/Our Values/OurValuesSection.jsx";
