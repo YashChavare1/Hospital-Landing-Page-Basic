@@ -1,0 +1,72 @@
+*, body, p {
+    padding: 0;
+    margin: 0;
+}
+
+
+#navbarComponent {
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ECF6FF;
+}
+
+#navbar {
+    width: 1254px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 18;
+    left: 92;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.title {
+    width: 200px;
+    height: 33px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    cursor: pointer;
+}
+
+.title #doctorName {
+    color: #0086FF;
+}
+
+#title #titleText {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.menu {
+    width: 466px;
+    height: 19px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 16px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    color: #0086FF;
+}
+
+.btnBookNow button {
+    background-color: #0086FF;
+    width: 119px;
+    height: 39px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

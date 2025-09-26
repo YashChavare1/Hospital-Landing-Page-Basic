@@ -1,0 +1,134 @@
+*,
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.heroSectionContainer {
+  background-color: #ecf6ff;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroSectionContainer .heroContent {
+  width: 1428px;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.heroInfo {
+  width: 528px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  left: 136px;
+  top: 230px;
+}
+
+.heroInfo .heroTaglines {
+  width: 528px;
+  height: 203px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heroInfo .heroTaglines #heroTagline1 {
+  font-weight: 700;
+  font-size: 56.8px;
+  font-family: sans-serif;
+  height: 144px;
+  width: 524px;
+}
+
+.heroInfo .heroTaglines #heroTagline1 #part1 {
+  color: #234a6b;
+}
+.heroInfo .heroTaglines #heroTagline1 #part2 {
+  color: #0086ff;
+}
+
+.heroInfo .heroTaglines #heroTagline2 {
+  font-family: "Inter", sans-serif;
+  width: 390px;
+  height: 38px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+
+.heroInfo .doctorSearch {
+  height: 60px;
+  width: 528px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.heroInfo .doctorSearch .searchField {
+  width: 260px;
+  height: 24px;
+  position: absolute;
+  left: 26px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchField .IconLocation {
+  height: 24px;
+  width: 24px;
+}
+
+.heroInfo .doctorSearch .searchField input {
+  width: 207px;
+  height: 17px;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  color: #1e1e1e;
+}
+
+.heroInfo .doctorSearch .btnDoctorSearch {
+  position: absolute;
+  left: 406px;
+}
+
+.heroInfo .doctorSearch .btnDoctorSearch button {
+  color: white;
+  background-color: #0086ff;
+  width: 108px;
+  height: 50px;
+  border: none;
+  border-radius: 12px;
+}
+
+.heroImage {
+  width: 618px;
+  height: 652px;
+  position: absolute;
+  left: 830px;
+}
+
+.heroImage img {
+  position: absolute;
+  bottom: 0;
+  width: 554px;
+  height: 614px;
+}

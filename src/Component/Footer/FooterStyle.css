@@ -1,0 +1,142 @@
+*,
+body,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footerContainer {
+  width: 100vw;
+  height: 444px;
+  background-color: #13324f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contentContainer {
+  height: 364px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 1095px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content .heading {
+  width: 200px;
+  height: 30px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.content .heading:hover, 
+.content .doctorDetails .tagline:hover {
+  color: white;
+}
+
+.content .doctorDetails {
+  width: 183px;
+  height: 152px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content .doctorDetails .tagline {
+  width: 183px;
+  margin-top: 5px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #9babba;
+}
+
+.content .doctorDetails .logos {
+  width: 122px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content .doctorDetails .logos img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.content .content2 {
+  width: 829px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content .explore {
+  width: 183px;
+  height: 193px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.content .aboutUs {
+  width: 183px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.content .contact {
+  width: 183px;
+  height: 151px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.copyright {
+  width: 100%;
+  height: 80px;
+  background-color: #1e3c58;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list p {
+  height: 17px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #9babba;
+  cursor: pointer;
+}
+
+.list p:hover {
+  color: white;
+}
+
+.list {
+  width: 183px;
+  height: 137px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}

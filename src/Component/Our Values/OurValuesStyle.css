@@ -1,0 +1,109 @@
+*, body, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.valuesContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+.valuesContent {
+    width: 1153px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images {
+    width: 551px;
+    height: 730px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.images img {
+    width: 262px;
+    height: 308px;
+}
+
+.images .container1 {
+    width: 262px;
+    height: 643px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.images .container2 {
+    width: 262px;
+    height: 632px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    top: 98px;
+}
+
+.text {
+    width: 490px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text .heading {
+    width: 342px;
+    height: 76px;
+}
+
+.text .heading .title {
+    color: #0086FF;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    width: 66px;
+    height: 19px;
+    line-height: 19px;
+}
+
+.text .heading .tagline {
+    width: 442px;
+    height: 50px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #234A6B;
+    display: flex;
+}
+
+.text .tagline {
+    width: 490px;
+    height: 124px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    font-family: "Inter", sans-serif;
+}
+
+.valuesContainer .valuesContent .text .btnContactUs {
+    bottom: 0px;
+    width: 145px;
+    height: 47px;
+    background-color: #0086FF;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+}

@@ -1,0 +1,130 @@
+*,
+body,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.specialityContainer {
+  height: 1512px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f9fcff;
+  box-sizing: border-box;
+  padding-bottom: 90px;
+}
+
+.specialityContent {
+  width: 1140px;
+  height: 1291px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.heading {
+  width: 347px;
+  height: 117px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading .headingText {
+  color: #234a6b;
+  font-weight: 700;
+  font-size: 50px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-align: center;
+}
+
+.heading .tagline {
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  height: 38px;
+  text-align: center;
+}
+
+.speciality {
+  width: 1140px;
+  height: 1074px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.serviceCard {
+  width: 287px;
+  height: 317px;
+  border-radius: 26px;
+  margin: 40.5px 11.34px 40.5px 11.34px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 6.48px 54.9px 0px #0086ff1a;
+}
+
+/* .serviceCard:hover,  */
+.serviceCard:hover,
+.serviceCard:hover .text .title,
+.serviceCard:hover .text .tagline {
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.serviceCard:hover {
+  background-color: #3d9df1;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.serviceCard .icon {
+  width: 113px;
+  height: 113px;
+  background-color: #f6f9fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25.91px;
+}
+
+.serviceCard .icon img {
+  width: 48px;
+  height: 48px;
+}
+
+.serviceCard .text {
+  width: 238px;
+  height: 96.59px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.serviceCard .text .title {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  width: 239px;
+  height: 33px;
+  color: #000000;
+  background-color: transparent;
+}
+
+.serviceCard .text .tagline {
+  width: 239px;
+  height: 48px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #757575;
+  background-color: transparent;
+}

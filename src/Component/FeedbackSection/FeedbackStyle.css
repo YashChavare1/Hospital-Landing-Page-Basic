@@ -1,0 +1,165 @@
+*,
+body,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.feedbackContainer {
+  width: 100vw;
+  height: 804px;
+  background-color: #ecf6ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedbackContent {
+  width: 1120px;
+  height: 495px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.textContent {
+  width: 1120px;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textContent .heading {
+  width: 584px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.heading .tagline1 {
+  width: 584px;
+  height: 100px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #234a6B;
+}
+
+.heading .tagline2 {
+  width: 584px;
+  height: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+
+.textContent .buttons {
+    width: 118px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.textContent .buttons img {
+    width: 40px;
+    height: 40px;
+}
+
+.reviews {
+    width: 1092px;
+    height: 246px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.reviewCard {
+    width: 249px;
+    height: 246px;
+    border-radius: 10px;
+    padding: 39px 18px 39px 18px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.reviewCard:hover {
+  background-color: #0086FF;
+}
+
+.reviewCard:hover .message p,
+.reviewCard:hover .user .userDetails .name,
+.reviewCard:hover .user .userDetails .type {
+  color: #FFFFFF;
+}
+
+
+.reviewCard .message {
+    width: 210px;
+    height: 91px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+.reviewCard .message img {
+    width: 25px;
+    height: 25px;
+}
+
+.reviewCard .message p {
+    width: 210px;
+    height: 51px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #757575;
+}
+
+.reviewCard .user {
+    width: 139px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.reviewCard .user img {
+    width: 40p;
+    height: 40px;
+}
+
+.reviewCard .user .userDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 87px;
+    height: 39px;
+}
+
+.reviewCard .user .userDetails .name {
+    width: 87px;
+    height: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: small;
+    line-height: 140%;
+    color: #757575;
+}
+
+.reviewCard .user .userDetails .type {
+    width: 87px;
+    height: 17px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: #B3B3B3;
+}

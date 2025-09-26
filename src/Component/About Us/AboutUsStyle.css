@@ -1,0 +1,78 @@
+*, body, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.aboutUsContainer {
+    width: 100vw;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUsContainer .aboutUsContent {
+    width: 1187px;
+    height: 482px;
+    padding: 90px 130px 30px 130px;
+    left: 114px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imageContainer {
+    width: 547px;
+    height: 422px;
+}
+
+.taglineSection {
+    width: 490px;
+    height: 422px;
+    gap: 26px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.tagline1 #aboutUsText {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0086FF;
+    font-family: 'Inter', sans-serif;
+}
+
+.tagline1 #taglineText {
+    width: 478px;
+    height: 150px;
+    top: 26px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #234A6B;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.tagline2 {
+    width: 490px;
+    height: 95px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    font-family: 'Inter', sans-serif;
+}
+
+.btnContactUs button{
+    position: absolute;
+    bottom: 0px;
+    width: 145px;
+    height: 47px;
+    background-color: #0086FF;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+}
